@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #0E185F;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    margin: 0;
+    font-family: 'Nova Square', cursive;
+    text-align: center; 
+}
+
+#header {
+    background-color: #0E185F;
+    padding: 50px 75px 50px;
+} 
+
+.title {
+    color: #E8FFC2;
+    font-size: 65px;
+    line-height: 2;
+}
+
+.startButton, 
+.play-again {
+    background-color: #2FA4FF;
+    border: 5px #2FA4FF;
+    border-radius: 8px;
+    color: #E8FFC2;
+    font-size: large;
+    text-align: center;
+    padding: 5px 45px;
+    width: 30%;
+}
+
+.play-again {
+    margin: 30px 0; 
+}
+
+.startButton:hover,
+.play-again:hover {
+    background-color: #00FFDD;
+    color: #0E185F;
+}
+
+.roundNumber {
+    color: #E8FFC2;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#game-area {
+    background-color: #00FFDD;
+    padding: 100px 80px 120px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.playerOne,
+.playerTwo {
+    padding: auto;
+    width: 35%;
+}
+
+.playerName {
+    color: #0E185F;
+    font-size: 45px;
+}
+
+.score,
+.p1-score,
+.p2-score {
+    color: #0E185F;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 80px;
+}
+
+.compPickBox {
+    padding-bottom: 30px;
+}
+
+#compPickText {
+    color: #0E185F;
+    font-size: 30px;
+    padding: 0px;
+    margin-bottom: 80px;
+}
+
+#btn {
+    background-color: #0E185F;
+    color: #E8FFC2;
+    margin: 10px 20px;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 5px;
+}
+
+#btn:hover {
+    background-color:#2FA4FF;
+    color: #0E185F;
+}
+
+.disableButtons {
+    opacity: 50%;
+    pointer-events: none;
+ }
+
+.winnerBox {
+    background-color: #2FA4FF;
+    color: #E8FFC2;
+    font-size: 65px;
+    padding: 120px 100px;
+}
+
+.lastContainer {
+    background-color: #0E185F;
+    padding: 0;
+    margin: 0;
+}
+
+/* .play-again {
+    background-color: #2FA4FF;
+    border: 5px #2FA4FF;
+    border-radius: 8px;
+    color: #E8FFC2;
+    font-size: large;
+    text-align: center;
+    padding: 5px 45px;
+    margin: 30px 0;
+} */
+
+#credit {
+    background-color: #0E185F;
+    padding: 0;
+    margin: 0;
+}
+
+.creditText {
+    color: white;
+    font-size: x-small;
+    padding: 5px 0;
+    margin: 0;
+    
+}
+
+

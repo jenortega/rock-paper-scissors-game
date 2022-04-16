@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+    <title>&#129704; &#128196; &#9986;&#65039; Game</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
+    <div id="header">
+        <h1 class="title">Welcome to <br> ROCK, PAPER, SCISSORS!</h1>
+        <button class="startButton">START</button>
+    </div>
+
+    <div id="game-area">
+        <div class="playerOne">
+            <h3 class="playerName">Player One</h3>
+            <h4 class="score"> score: </h4>
+            <h4 class="p1-score">0</h4>
+            <div class="bottons">
+                <span id="buttonsAppear"></span>
+                <!-- <button id="btn" class="rock">Rock</button>
+                <button id="btn" class="paper">Paper</button>
+                <button id="btn" class="scissors">Scissors</button> -->
+            </div>
+        </div>
+
+        <div class="playerTwo">
+            <h3 class="playerName">Computer</h3>
+            <h4 class="score"> score: </h4>
+            <h4 class="p2-score">0</h4>
+            <!-- <div class="compPickBox">
+                <span id="compPickText"></span>
+            </div> -->
+        </div>
+
+    </div>
+    
+    <div id="lastContainer">
+        <span id="play-again"></span>
+    </div>
+
+    <div id="credit">
+    <p class="creditText"> created by jen ortega</p>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
