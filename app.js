@@ -44,7 +44,7 @@ startBtn.addEventListener('click', () => {
 
   const viewRound = document.createElement('h4');
   viewRound.classList.add('roundNumber');
-  viewRound.textContent = "round number: " + round;
+  viewRound.textContent = "round number: " + round + "/" +roundLimit;
   
   headerText.parentNode.insertBefore(viewRound, headerText.nextSibling);
 
@@ -80,7 +80,7 @@ function p1Buttons(){
 
       round++;
       const viewRoundNum = document.querySelector('.roundNumber');
-      viewRoundNum.textContent = "round number: " + round;
+      viewRoundNum.textContent = "round number: " + round + "/" + roundLimit;
       
       if (round < roundLimit) {
         game();
@@ -199,7 +199,7 @@ function playAgainFunc() {
     round = 0;
   
     const viewRoundNum = document.querySelector('.roundNumber');
-    viewRoundNum.textContent = "round number: " + round;
+    viewRoundNum.textContent = "round number: " + round + "/" + roundLimit;
     
     const childText = document.querySelector('#compPickText');
     childText.textContent = "Computer's Pick: ... "
